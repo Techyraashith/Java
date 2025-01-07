@@ -1,0 +1,18 @@
+package dayByday;
+
+
+sealed class class1 permits Streams{
+	String n = "Hey There!";
+}
+
+public non-sealed class Streams extends class1{
+
+	public static void main(String[] args) {
+		
+		System.out.println("This is Sealed class. Access only for Streams Class.");
+		
+		Streams s = new Streams();
+		
+		System.out.println(s.n);
+	}
+}

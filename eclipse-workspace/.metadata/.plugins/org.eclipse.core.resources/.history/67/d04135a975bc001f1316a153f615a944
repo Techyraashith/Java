@@ -1,0 +1,24 @@
+package dayByday;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.File;
+
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File f = new File("output.txt");
+		
+		if(f.createNewFile()) {
+			System.out.println("File Created Successfully.");
+		}
+		else {
+			System.out.println("Something Went Wrong");
+		}
+		
+	}
+
+}

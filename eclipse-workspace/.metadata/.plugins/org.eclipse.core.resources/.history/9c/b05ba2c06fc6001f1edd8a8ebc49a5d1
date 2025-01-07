@@ -1,0 +1,24 @@
+package exercies;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class CreateLinkList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	LinkedList<String> emp = new LinkedList<>();
+		
+		emp.add("Wade Willson");
+		emp.add("Steve");
+		emp.add("Tony");
+		emp.add("Bruce");
+		emp.add("Clint Barton");
+	
+		System.out.println(emp.contains("Steve"));
+	
+	
+	}
+
+}

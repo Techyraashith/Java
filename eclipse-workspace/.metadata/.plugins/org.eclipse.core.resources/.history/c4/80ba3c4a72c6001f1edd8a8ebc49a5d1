@@ -1,0 +1,20 @@
+package exercies;
+
+import java.util.HashSet;
+
+public class CreatHashset {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		HashSet<String> emp = new HashSet<>();
+		emp.add("Wade Willson");
+		emp.add("Steve");
+		emp.add("Tony");
+		emp.add("Bruce");
+		emp.add("Clint Barton");
+		
+	}
+
+}

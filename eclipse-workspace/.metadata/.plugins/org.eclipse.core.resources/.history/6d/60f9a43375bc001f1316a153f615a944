@@ -1,0 +1,25 @@
+package dayByday;
+
+import java.io.FileWriter;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		try {
+		
+			FileWriter fw = new FileWriter("output.txt");
+			fw.append("Hello this is Java\n");
+			fw.append("Any Help you want?");
+			fw.close();
+			System.out.println("Successfully created.");
+		}
+		
+		catch (Exception e) {
+			System.out.println("Something went wrong!");
+		}
+	}
+
+}

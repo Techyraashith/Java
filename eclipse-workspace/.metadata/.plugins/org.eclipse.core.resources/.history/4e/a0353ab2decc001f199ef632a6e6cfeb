@@ -1,0 +1,87 @@
+package test;
+
+enum Berth{
+	Upper,
+	Middle,
+	Lower
+}
+
+public class Passenger {
+
+	private Integer pid;
+	
+	private String Name;
+	
+	private Berth PreferBerth;
+	
+	private Integer WaitingListLimit;
+	
+	private Berth AllocatedBerth;
+	
+	//private LocalDateTime bkdTime;
+	
+	@Override
+	public String toString() {
+		return "Passenger [pid=" + pid + ", Name=" + Name + ", PreferBerth=" + PreferBerth + ", WaitingListLimit="
+				+ WaitingListLimit + ", AllocatedBerth=" + AllocatedBerth + "]";
+	}
+
+	public Integer getPid() {
+		return pid;
+	}
+
+	public void setPid(Integer pid) {
+		this.pid = pid;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public Berth getPreferBerth() {
+		return PreferBerth;
+	}
+
+	public void setPreferBerth(Berth PreferBerth) {
+		PreferBerth = PreferBerth;
+	}
+
+	public Integer getWaitingListLimit() {
+		return WaitingListLimit;
+	}
+
+	public void setWaitingListLimit(Integer waitingListLimit) {
+		WaitingListLimit = waitingListLimit;
+	}
+
+	public Berth getAllocatedBerth() {
+		return AllocatedBerth;
+	}
+
+	public void setAllocatedBerth(Berth allocatedBerth) {
+		AllocatedBerth = allocatedBerth;
+	}
+
+	/*public LocalDateTime getBkdTime() {
+		return bkdTime;
+	}
+
+	public void setBkdTime(LocalDateTime bkdTime) {
+		this.bkdTime = bkdTime;
+	}
+*/
+	public Passenger(Integer pid, String Name, Berth PreferBerth) {
+		
+		this.pid = pid;
+		this.Name = Name;
+		this.PreferBerth = PreferBerth;
+		//this.bkdTime = bkdTime;
+	}
+
+
+}
+

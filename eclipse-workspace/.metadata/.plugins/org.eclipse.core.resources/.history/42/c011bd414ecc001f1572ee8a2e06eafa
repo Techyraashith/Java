@@ -1,0 +1,57 @@
+package test;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Booking {
+
+	static int TicketsAvailable = 6;
+	static int FirstClass = 2, SecondClassAc = 2, SecondClassNonAc = 2;
+	static int WaitingLimit = 0;
+	static List<Passenger> BookedPassengers = new ArrayList<Passenger>();
+	static List<Passenger> WaitingList = new ArrayList<Passenger>();
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Hey There! Welcome.\n");
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		//String con = "Y";
+		
+		boolean cont = true;
+		
+		while(cont == true) {
+			
+			System.out.println("1. Book Ticket. \n2.View Ticket. \n3.Cancel Ticket. \n4. Waiting List Current Status.");
+			System.out.print("Choose Your Options Options Please: ");
+			
+			int choice = scan.nextInt();
+			
+			switch(choice) {
+				
+			case 1:
+				break;
+				
+			case 2:
+				break;
+				
+			case 3:
+				break;
+				
+			case 4:
+				break;
+			}
+			
+			System.out.print("Do You Want To Continue Y/N: ");
+			String c = scan.next();
+			// con = c; 
+			
+			cont = c.equalsIgnoreCase("Y");
+		}
+		
+	}
+
+}
