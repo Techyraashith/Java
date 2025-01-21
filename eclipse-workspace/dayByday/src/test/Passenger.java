@@ -22,8 +22,8 @@ public class Passenger {
 	
 	@Override
 	public String toString() {
-		return "Passenger [pid=" + pid + "], [Name=" + Name + "], [PreferBerth=" + PreferBerth + "], [WaitingListLimit="
-				+ WaitingListLimit + "], [AllocatedBerth=" + AllocatedBerth + "]";
+		return "\nPassenger Details: \npid=" + pid + "\nName=" + Name + "\nPreferBerth=" + PreferBerth + "\nWaitingListLimit="
+				+ WaitingListLimit + "\nAllocatedBerth=" + AllocatedBerth + "\n";
 	}
 
 	public Integer getPid() {
@@ -39,7 +39,7 @@ public class Passenger {
 	}
 
 	public void setName(String name) {
-		Name = name;
+		Name = name;m
 	}
 
 	public Integer getPreferBerth() {

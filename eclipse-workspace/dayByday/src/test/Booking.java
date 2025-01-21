@@ -35,6 +35,7 @@ public class Booking {
 		while(cont == true) {
 			
 			System.out.println("1. Book Ticket. \n2.View Ticket. \n3.Cancel Ticket. \n4. Waiting List Current Status.");
+			
 			System.out.print("\nChoose Your Options Please: ");
 			
 			int choice = scan.nextInt();
